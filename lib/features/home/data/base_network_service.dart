@@ -1,4 +1,4 @@
-abstract class BaseApiService {
+abstract class Base {
   Future<dynamic> get(String url,
       {Map<String, dynamic>? queryParams, Map<String, String>? headers});
   Future<dynamic> post(String url,
